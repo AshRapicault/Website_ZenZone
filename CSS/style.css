@@ -1,6 +1,6 @@
 :root {
-    --achtergrondKleurBody: #54bdbd;
-    --achtergrondKleurHeaderEnFooterHome: #e0efef;
+    --achtergrondKleurBody: #5dcece;
+    --achtergrondKleurHeaderEnFooterHome: #97e1e1;
     --tekstKleur: white;
 }
 
@@ -13,6 +13,16 @@ footer.homepage {
     background-color: var(--achtergrondKleurHeaderEnFooterHome);
 }
 
-h1.homepage {
-    color: var(--tekstKleur)
+h1.homepage 
+{
+    color: var(--tekstKleur);
+    font-family: "Merienda", cursive;
+    text-align: center;
+}
+
+p.homepage
+{
+    color: var(--tekstKleur);
+    font-family: "Balsamiq Sans", sans-serif;
+    text-align: center;
 }
