@@ -1,0 +1,16 @@
+:root
+{
+--achtergrondKleurBody: #54bdbd;
+--achtergrondKleurHeaderEnFooterHome: #e0efef;
+--tekstKleur: white;
+}
+
+body.homepage
+{
+background-color: var(--achtergrondKleurBody);
+}
+
+header.homepage, footer.homepage
+{
+ background-color: var(--achtergrondKleurHeaderEnFooterHome);
+}
