@@ -45,9 +45,7 @@
     </div>
   </nav>
   <!-- boostrap script link -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
   <!-- head -->
 
@@ -58,6 +56,12 @@
           <h1 class="text-center">Geschenkmanden</h1>
         </div>
       </div>
+    </head>
+    <!-- einde head -->
+
+    <!-- start main  -->
+    <main>
+      <!-- acordion item 1: chill & unwind geschenkmand -->
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -70,15 +74,35 @@
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">
               <div class="row mt-5">
-                <div class="col-lg-4 col-6">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="col-lg-4 col-md-6">
+                  <!-- start van de kaard waarin een carousell staat  -->
+                  <div class="card w-75 mb-3 ms-5">
+                    <div id="carouselExample" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="../Images/Chill&Unwind(1).jpg" class="d-block w-100" alt="de chill & unwind items">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../Images/Chill&Unwind(2).jpg" class="d-block w-100" alt="de chill & unwind mand">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
                     <div class="card-body">
-                      <p class="card-text">Chill & Unwind pack items</p>
+                      <p class="card-text">Afbeeldingen van de chill & unwind mand en zijn items</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-8 col-6">
+
+                <!-- andere kollomen en tekst van de chill & unwind mand -->
+                <div class="col-lg-8 col-md-6">
                   <div class="row">
                     <div class="col-lg-6">
                       <h4>Chill & Unwind</h4>
@@ -102,6 +126,8 @@
             </div>
           </div>
         </div>
+
+        <!--  -->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -120,6 +146,8 @@
             </div>
           </div>
         </div>
+
+        <!-- accordion item 3: sport geschenkmand -->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -131,7 +159,7 @@
           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
             <div class="accordion-body">
               <div class="row mt-5">
-                <div class="col-lg-4 col-6">
+                <div class="col-lg-4 col-md-6 mb-2">
                   <div class="card">
                     <img src="../Images/Sport.jpg" class="card-img-top" alt="afbeelding van de items in de sport mand">
                     <div class="card-body">
@@ -139,7 +167,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-8 col-6">
+                <div class="col-lg-8 col-md-6">
                   <div class="row">
                     <div class="col-lg-6">
                       <h4>Sport</h4>
@@ -165,8 +193,10 @@
           </div>
         </div>
       </div>
+      </main>
+      <!-- einde main -->
+
     </div>
-  </head>
 </body>
 
 </html>
