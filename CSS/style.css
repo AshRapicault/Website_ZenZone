@@ -1,19 +1,29 @@
+/* Variabelen */
 :root {
     --achtergrondKleurBody: #5dcece;
-    --achtergrondKleurHeaderEnFooterHome: #97e1e1;
+    --achtergrondKleurHeaderEnFooter: #97e1e1;
+    --achtergrondKleurAccordions: #cdffff;
     --tekstKleur: white;
 }
 
-body.homepage {
+/* Achtergrond kleuren body's, headers, footers ,... */
+body.homepage,
+body.mandenPage {
     background-color: var(--achtergrondKleurBody);
 }
 
 header.homepage,
 footer.homepage {
-    background-color: var(--achtergrondKleurHeaderEnFooterHome);
+    background-color: var(--achtergrondKleurHeaderEnFooter);
 }
 
+.mandenPageAccordion {
+    background-color: var(--achtergrondKleurAccordions);
+}
+
+/* Opmaak teksten */
 h1.homepage,
+h1.mandenPage,
 h2.homepage {
     color: var(--tekstKleur);
     font-family: "Merienda", cursive;
@@ -26,6 +36,13 @@ p.homepage {
     text-align: center;
 }
 
+p.mandenPage,
+li.mandenPage,
+h4.mandenPage {
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+/* Opmaak Foto's */
 img.homepage {
     display: inline;
     width: 10%;
