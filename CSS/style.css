@@ -13,16 +13,21 @@ footer.homepage {
     background-color: var(--achtergrondKleurHeaderEnFooterHome);
 }
 
-h1.homepage 
-{
+h1.homepage,
+h2.homepage {
     color: var(--tekstKleur);
     font-family: "Merienda", cursive;
     text-align: center;
 }
 
-p.homepage
-{
+p.homepage {
     color: var(--tekstKleur);
     font-family: "Balsamiq Sans", sans-serif;
     text-align: center;
+}
+
+img.homepage {
+    display: inline;
+    width: 10%;
+    height: 10%;
 }
