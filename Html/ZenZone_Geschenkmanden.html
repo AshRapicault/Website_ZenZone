@@ -45,9 +45,7 @@
     </div>
   </nav>
   <!-- boostrap script link -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
   <!-- head -->
 
@@ -58,27 +56,52 @@
           <h1 class="text-center">Geschenkmanden</h1>
         </div>
       </div>
+    </head>
+    <!-- einde head -->
+
+    <!-- start main  -->
+    <main>
+      
+      <!-- acordion item 1: chill & unwind geschenkmand -->
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
               Chill & Unwind
             </button>
           </h2>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">
               <div class="row mt-5">
-                <div class="col-lg-4 col-6">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="col-lg-4 col-md-6">
+                  <!-- start van de kaard waarin een carousell staat  -->
+                  <div class="card w-75 mb-3 ms-5">
+                    <div id="carouselChill&Unwind" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 50vh">
+                          <img src="../Images/Chill&Unwind(1).jpg" class="d-block w-100 h-100" alt="de chill & unwind items">
+                        </div>
+                        <div class="carousel-item" style="height: 50vh">
+                          <img src="../Images/Chill&Unwind(2).jpg" class="d-block w-100 h-100" alt="de chill & unwind mand">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselChill&Unwind" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselChill&Unwind" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
                     <div class="card-body">
-                      <p class="card-text">Chill & Unwind pack items</p>
+                      <p class="card-text">Afbeeldingen van de chill & unwind mand en zijn items</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-8 col-6">
+
+                <!-- andere kollomen en tekst van de Chill & Unwind mand -->
+                <div class="col-lg-8 col-md-6 ms-md-0 ms-5">
                   <div class="row">
                     <div class="col-lg-6">
                       <h4>Chill & Unwind</h4>
@@ -102,44 +125,95 @@
             </div>
           </div>
         </div>
+
+        <!-- accordion item 2: studdy buddy-->
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
               aria-controls="panelsStayOpen-collapseTwo">
-              Accordion Item #2
+              Studdy Buddy
             </button>
           </h2>
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-              plugin adds the appropriate classes that we use to style each element. These classes control the overall
-              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-              <code>.accordion-body</code>, though the transition does limit overflow.
+              <div class="row mt-5">
+                <div class="col-lg-4 col-md-6">
+                  <!-- start van de kaard waarin een carousell staat  -->
+                  <div class="card w-75 mb-3 ms-5">
+                    <div id="carouselStuddyBuddy" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 50vh">
+                            <img src="../Images/StudyBuddy(1).jpg" class="d-block w-100 h-100" alt="afbeelding van één van de mogelijke studdy buddy items">
+                        </div>
+                        <div class="carousel-item" style="height: 50vh">
+                          <img src="../Images/StudyBuddy(2).jpg" class="d-block w-100 h-100" alt="afbeelding van één van de mogelijke studdy buddy manden">
+                        </div>
+                        <div class="carousel-item" style="height: 50vh">
+                          <img src="../Images/StudyBuddy(3).jpg" class="d-block w-100 h-100" alt="afbeelding  van de andere mogelijke studdy buddy items">
+                      </div>
+                      <div class="carousel-item" style="height: 50vh">
+                        <img src="../Images/StudyBuddy(4).jpg" class="d-block w-100 h-100" alt="afbeelding van de andere mogelijke studdy buddy mand">
+                      </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselStuddyBuddy" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselStuddyBuddy" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Afbeeldingen van de 2 study buddy manden en hun items</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- andere kollomen en tekst van de Studdy Buddy mand -->
+                <div class="col-lg-8 col-md-6 ms-md-0 ms-5">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h4>Studdy Buddy</h4>
+                    </div>
+                    <div class="col-lg-6">
+                      <h4>Prijs: €13,00</h4>
+                    </div>
+                  </div>
+                  <p>deze doos bevat:</p>
+                  <ol>
+                    <li>Stumble guys figuren</li>
+                    <li>Planner</li>
+                    <li>Mini highlighterset</li>
+                    <li>Office essentials index tabs</li>
+                    <li>Pilot balpennen Frixionball sticks</li>
+                  </ol>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
+        <!-- accordion item 3: sport geschenkmand -->
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseThree">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
               Sport
             </button>
           </h2>
           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
             <div class="accordion-body">
               <div class="row mt-5">
-                <div class="col-lg-4 col-6">
-                  <div class="card">
-                    <img src="../Images/Sport.jpg" class="card-img-top" alt="afbeelding van de items in de sport mand">
+                <div class="col-lg-4 col-md-6 mb-2">
+                  <div class="card w-75 mb-3 ms-5">
+                    <img src="../Images/Sport.jpg" class="card-img-top h-100" style="height: 50vh" alt="afbeelding van de items in de sport mand">
                     <div class="card-body">
-                      <p class="card-text">Sport pack items</p>
+                      <p class="card-text">Sport mand items</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-8 col-6">
+                <div class="col-lg-8 col-md-6">
                   <div class="row">
                     <div class="col-lg-6">
                       <h4>Sport</h4>
@@ -164,9 +238,122 @@
             </div>
           </div>
         </div>
+
+        <!-- accordion item 4: Snack Attack-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseFour">
+              Snack Attack
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <div class="row mt-5">
+                <div class="col-lg-4 col-md-6">
+                  <!-- start van de kaard waarin een carousell staat  -->
+                  <div class="card w-75 mb-3 ms-5">
+                    <div id="carouselSnackAttack" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 50vh">
+                            <img src="../Images/SnackAttack(1).jpg" class="d-block w-100 h-100" alt="Afbeelding van de snack attack items">
+                        </div>
+                        <div class="carousel-item" style="height: 50vh">
+                          <img src="../Images/SnackAttack(2).jpg" class="d-block w-100 h-100" alt="Afbeelding van de snack attack mand">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselSnackAttack" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselSnackAttack" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Afbeeldingen van snack attack mand en zijn items</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- andere kollomen en tekst van de Snack Attack mand -->
+                <div class="col-lg-8 col-md-6 ms-md-0 ms-5">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h4>Snack attack</h4>
+                    </div>
+                    <div class="col-lg-6">
+                      <h4>Prijs: €16,00</h4>
+                    </div>
+                  </div>
+                  <p>deze doos bevat:</p>
+                  <ol>
+                    <li>Oreo</li>
+                    <li>Haribo fun mix</li>
+                    <li>Patisserie stroppwaffles</li>
+                    <li>Milka chocolade naps mix</li>
+                    <li>Chocolademelk-sticks</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- accordion item 5: snack attack (Gluten en Lactosevrij) -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseFive">
+              Snack Attack (Gluten en Lactosevrij)
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <div class="row mt-5">
+                <div class="col-lg-4 col-md-6">
+                  <!-- start van de kaard  -->
+                  <div class="card w-75 mb-3 ms-5">
+                    <img src="../Images/SnackAttack(Gluten en lactosevrij).jpg" class="card-img-top h-100" style="height: 50vh" alt="afbeelding van de items in de Snack attack mand">
+                    <div class="card-body">
+                      <p class="card-text">Snack attack (gluten en lactosevrij) mand items</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- andere kollomen en tekst van de Snack Attack mand -->
+                <div class="col-lg-8 col-md-6 ms-md-0 ms-5">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h4>Snack attack (gluten en lactosevrij)</h4>
+                    </div>
+                    <div class="col-lg-6">
+                      <h4>Prijs: €16,00</h4>
+                    </div>
+                  </div>
+                  <p>deze doos bevat:</p>
+                  <ol>
+                    <li>Cashewnoten</li>
+                    <li>Fuze tea</li>
+                    <li>Zure glimwormen</li>
+                    <li>Haribo mega mix</li>
+                    <li>Sprite</li>
+                    <li>Doritos bits sweet paprika</li>
+                    <li>Snacks world honey cashew</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </main>
+      <!-- einde main -->
+
     </div>
-  </head>
 </body>
 
 </html>
