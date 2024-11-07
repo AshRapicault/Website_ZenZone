@@ -4,6 +4,7 @@
     --achtergrondKleurHeaderEnFooter: #97e1e1;
     --achtergrondKleurAccordions: #cdffff;
     --tekstKleur: white;
+    --borderKleur: #5dcece;
 }
 
 /* Achtergrond kleuren body's, headers, footers ,... */
@@ -42,9 +43,13 @@ h4.mandenPage {
     font-family: "Balsamiq Sans", sans-serif;
 }
 
-/* Opmaak Foto's */
+/* Opmaak Foto's + divs */
 img.homepage {
     display: inline;
     width: 10%;
     height: 10%;
+}
+
+div.mandenPage{
+    border-color: var(--borderKleur);
 }
