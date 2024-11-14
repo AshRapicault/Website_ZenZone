@@ -46,10 +46,9 @@ h4.mandenPage {
 /* Opmaak Foto's + divs */
 img.homepage {
     display: inline;
-    width: 10%;
-    height: 10%;
+    width: 15%;
 }
 
-div.mandenPage{
+div.mandenPage {
     border-color: var(--borderKleur) !important;
 }
