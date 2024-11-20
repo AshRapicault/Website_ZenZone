@@ -4,7 +4,8 @@
     --achtergrondKleurHeaderEnFooter: #97e1e1;
     --achtergrondKleurAccordions: #cdffff;
     --tekstKleur: white;
-    --borderKleur: #5dcece;
+    --borderKleurBinnen: #5dcece;
+    --borderKleurBuiten: #0f9797;
 }
 
 /* Achtergrond kleuren body's, headers, footers ,... */
@@ -43,12 +44,26 @@ h4.mandenPage {
     font-family: "Balsamiq Sans", sans-serif;
 }
 
-/* Opmaak Foto's + divs */
+p.mandenPage{
+    font-size: small;
+}
+
+/* Opmaak Foto's + divs + accordions */
 img.homepage {
     display: inline;
     width: 15%;
 }
 
 div.mandenPage {
-    border-color: var(--borderKleur) !important;
+    border-color: var(--borderKleurBinnen) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--achtergrondKleurHeaderEnFooter) !important;
+}
+
+div.accordion-item,
+.accordion-header,
+.accordion-button{
+    border: 1.5px solid var(--borderKleurBuiten) !important  
 }
