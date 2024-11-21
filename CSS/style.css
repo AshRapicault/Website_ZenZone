@@ -11,7 +11,8 @@
 /* Achtergrond kleuren body's, headers, footers ,... */
 body.homepage,
 body.mandenPage,
-body.bestelformulierPage {
+body.bestelformulierPage,
+body.FAQPage {
     background-color: var(--achtergrondKleurBody);
 }
 
@@ -28,6 +29,7 @@ footer.homepage {
 h1.homepage,
 h1.mandenPage,
 h1.bestelformulierPage,
+h1.FAQPage,
 h2.homepage {
     color: var(--tekstKleur);
     font-family: "Merienda", cursive;
@@ -35,7 +37,9 @@ h2.homepage {
     margin: 0.5%
 }
 
-p.homepage {
+p.homepage,
+p.FAQPage,
+h2.FAQPage {
     color: var(--tekstKleur);
     font-family: "Balsamiq Sans", sans-serif;
     text-align: center;
@@ -70,4 +74,10 @@ div.accordion-item,
 .accordion-header,
 .accordion-button {
     border: 1.5px solid var(--borderKleurBuiten) !important
+}
+
+/* Background decoration */
+.background-container {
+    background-image: url('../Images/bubbles.png'); 
+    background-size: cover;
 }
