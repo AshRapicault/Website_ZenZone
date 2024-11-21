@@ -10,7 +10,8 @@
 
 /* Achtergrond kleuren body's, headers, footers ,... */
 body.homepage,
-body.mandenPage {
+body.mandenPage,
+body.bestelformulierPage {
     background-color: var(--achtergrondKleurBody);
 }
 
@@ -26,10 +27,12 @@ footer.homepage {
 /* Opmaak teksten */
 h1.homepage,
 h1.mandenPage,
+h1.bestelformulierPage,
 h2.homepage {
     color: var(--tekstKleur);
     font-family: "Merienda", cursive;
     text-align: center;
+    margin: 0.5%
 }
 
 p.homepage {
